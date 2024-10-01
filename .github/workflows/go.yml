@@ -26,5 +26,5 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: Upload artifact
-        path: ./shortcut.exe
+        path: ./shortcut
       
