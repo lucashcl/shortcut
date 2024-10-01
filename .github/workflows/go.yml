@@ -24,6 +24,7 @@ jobs:
       run: go build -v ./...
 
     - uses: actions/upload-artifact@v4
-      name: Upload artifact
-      path: shortcut.exe
+      with:
+        name: Upload artifact
+        path: shortcut.exe
       
